@@ -30,7 +30,6 @@ plt.tight_layout()
 plt.savefig(r'C:\Users\steph\OneDrive\Documentos\Universidad de Medellin\Semetre V\Proyecto de Ingeniería\SheMatters\backend\images\mapa-riesgo-de-acoso.png')
 
 
-
 fig, ax = plt.subplots(figsize=(12,8))
 
 # Plot the footprint
@@ -42,3 +41,4 @@ edges.plot(ax=ax, linewidth=0.3, column='length', legend=True, missing_kwds={'co
 plt.title("Longitud en metros de las calles de Medellín")
 plt.tight_layout()
 plt.savefig(r'C:\Users\steph\OneDrive\Documentos\Universidad de Medellin\Semetre V\Proyecto de Ingeniería\SheMatters\backend\images\mapa-de-called-con-longitud.png')
+
